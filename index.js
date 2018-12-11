@@ -1,19 +1,3 @@
-// var GeocoderGeonames = require('geocoder-geonames'),
-//     geocoder = new GeocoderGeonames({
-//       username: 'Coder_ak',
-//     });
-
-// geocoder.get('findNearbyPlaceName',{
-//     lat: '46.4693479',
-//     lng: '30.7317897'
-//   })
-//   .then(function(response){
-//     console.log(response);
-//   })
-//   .catch(function(error){
-//     console.log('Err', error);
-//   });
-
 // 46.4693479, 30.7317897
 
 const geocoder = require('offline-geocoder')({ database: 'db.sqlite' });
